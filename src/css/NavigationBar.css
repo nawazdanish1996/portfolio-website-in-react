@@ -1,0 +1,18 @@
+#nav ul{
+    display: flex;
+}
+
+#nav ul li{
+    list-style: none;
+}
+
+#nav ul li #tags{
+    text-decoration: none;
+    margin: 3px;
+    font-weight: 700;
+}
+
+.is-active{
+    color: red;
+    text-decoration: underline;
+}
