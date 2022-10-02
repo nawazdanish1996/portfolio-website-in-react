@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 function LightAndDarkMode() {
   return (
-    <div>LightAndDarkMode</div>
+    <div>
+      <button>Click me!</button>
+    </div>
   )
 }
 
-export default LightAndDarkMode
+export default LightAndDarkMode;
