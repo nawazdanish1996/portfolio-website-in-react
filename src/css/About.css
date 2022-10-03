@@ -18,3 +18,8 @@
 #box h3{
     color: green;
 }
+
+#prog1 #prog2 p{
+    font-size: 10px;
+    margin-left: 20px;
+}

@@ -14,29 +14,46 @@ function About() {
             <p>I am Nawaz Danish from West Bengal district of North Dinajpur, I am a React Developer with hands-on experience in identifying web-based user interactions along with highly responsive user interface components by deploying react concepts and writing code via JavaScript and React.js workflows. Monitoring and maintaining frontend performance.</p>
             <p>I always want to learn how to code and how to build a website how thins works behind the scenes. Then i join the newton school to begain my journy as a developer. As such my personal profile, I am a hard working and sincere person and always preferred with technical from different new enter Software.</p>
           </div>
-          <div className="col-md-4 mt-md-5 mb-md-4">
+          <div className="col-md-4 mt-md-4 mb-md-4">
             <div id='box' className="pt-5 pb-5">
               <h3>3</h3>
               <h5>Project Completed</h5>
             </div>
           </div>
-          <div className="col-md-4 mt-md-5 mb-md-4">
+          <div className="col-md-4 mt-md-4 mb-md-4">
             <div id='box' className="pt-5 pb-5">
               <h3>Fresher</h3>
               <h5>No Experience</h5>
             </div>
           </div>
-          <div className="col-md-4 mt-md-5 mb-md-4">
+          <div className="col-md-4 mt-md-4 mb-md-4">
             <div id='box' className="pt-5 pb-5">
               <h3>0</h3>
               <h5>Clients</h5>
             </div>
           </div>
           <div className="col-md-12">
-            <h1>My Skills</h1>
+            <h2 className=" text-uppercase text-center ">My Skills</h2>
           </div>
-          <div className="col-md-6">1</div>
-          <div className="col-md-6">2</div>
+
+          <div className="col-md-4 mb-5">
+            <h6>HTML5</h6>
+            <div id="prog1" className="bg-secondary">
+              <div id="prog2" style={{width: "80%"}} className="bg-success">
+                <p className="text-white">80%</p>
+              </div>
+            </div>
+          </div>
+          
+          <div className="col-md-4 mb-5">
+            <h6>CSS3</h6>
+            <div id="prog1" className="bg-secondary">
+              <div id="prog2" style={{width: "80%"}} className="bg-success">
+                <p className="text-white">80%</p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
