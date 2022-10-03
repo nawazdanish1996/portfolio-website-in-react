@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio-website-in-react/static/css/main.cbb724f1.css",
-    "main.js": "/portfolio-website-in-react/static/js/main.04c0c8de.js",
+    "main.js": "/portfolio-website-in-react/static/js/main.7c90fcdb.js",
     "static/css/449.c2b00032.chunk.css": "/portfolio-website-in-react/static/css/449.c2b00032.chunk.css",
     "static/js/449.43221e9c.chunk.js": "/portfolio-website-in-react/static/js/449.43221e9c.chunk.js",
-    "static/js/964.a2653ba1.chunk.js": "/portfolio-website-in-react/static/js/964.a2653ba1.chunk.js",
+    "static/css/493.c93d21db.chunk.css": "/portfolio-website-in-react/static/css/493.c93d21db.chunk.css",
+    "static/js/493.ca87305d.chunk.js": "/portfolio-website-in-react/static/js/493.ca87305d.chunk.js",
     "static/js/552.d3629041.chunk.js": "/portfolio-website-in-react/static/js/552.d3629041.chunk.js",
     "static/js/562.368d5468.chunk.js": "/portfolio-website-in-react/static/js/562.368d5468.chunk.js",
     "static/js/207.8867dc26.chunk.js": "/portfolio-website-in-react/static/js/207.8867dc26.chunk.js",
@@ -13,10 +14,11 @@
     "static/media/myProfilePic.jpg": "/portfolio-website-in-react/static/media/myProfilePic.626cd7bd2bd6f2c868c1.jpg",
     "index.html": "/portfolio-website-in-react/index.html",
     "main.cbb724f1.css.map": "/portfolio-website-in-react/static/css/main.cbb724f1.css.map",
-    "main.04c0c8de.js.map": "/portfolio-website-in-react/static/js/main.04c0c8de.js.map",
+    "main.7c90fcdb.js.map": "/portfolio-website-in-react/static/js/main.7c90fcdb.js.map",
     "449.c2b00032.chunk.css.map": "/portfolio-website-in-react/static/css/449.c2b00032.chunk.css.map",
     "449.43221e9c.chunk.js.map": "/portfolio-website-in-react/static/js/449.43221e9c.chunk.js.map",
-    "964.a2653ba1.chunk.js.map": "/portfolio-website-in-react/static/js/964.a2653ba1.chunk.js.map",
+    "493.c93d21db.chunk.css.map": "/portfolio-website-in-react/static/css/493.c93d21db.chunk.css.map",
+    "493.ca87305d.chunk.js.map": "/portfolio-website-in-react/static/js/493.ca87305d.chunk.js.map",
     "552.d3629041.chunk.js.map": "/portfolio-website-in-react/static/js/552.d3629041.chunk.js.map",
     "562.368d5468.chunk.js.map": "/portfolio-website-in-react/static/js/562.368d5468.chunk.js.map",
     "207.8867dc26.chunk.js.map": "/portfolio-website-in-react/static/js/207.8867dc26.chunk.js.map",
@@ -24,6 +26,6 @@
   },
   "entrypoints": [
     "static/css/main.cbb724f1.css",
-    "static/js/main.04c0c8de.js"
+    "static/js/main.7c90fcdb.js"
   ]
 }
