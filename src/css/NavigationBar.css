@@ -6,13 +6,17 @@
     list-style: none;
 }
 
-#nav ul li #tags{
+ul li #tags{
     text-decoration: none;
     margin: 3px;
     font-weight: 700;
+    /* color: white; */
 }
 
-.is-active{
-    color: red;
-    text-decoration: underline;
+ul li #tags:hover{
+    color: rgb(167, 163, 163);
+}
+
+ul li .active{
+    color: gray;
 }

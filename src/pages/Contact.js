@@ -1,10 +1,16 @@
-import React from 'react'
+import React from 'react';
 
 function Contact() {
   return (
     <div>
       <h1>Contact Component</h1>
-      <p>Loo oiuiooijojopijojp oi8hohoih oihjophjipo nihil, temporibus corrupti unde eum distinctio? At, voluptate qui! Provident non placeat voluptatem accusamus fugit id qui, repellat rerum iure hic eligendi facere quibusdam recusandae aliquid dolores ab minima molestiae autem. Voluptas quisquam impedit repellat ad at veritatis odit vel, fugiat! Magni, eum laudantium? Ab illum sint culpa tio aspernatur? Est distinctio sit excepturi, natus odio ea, libero delectus doloribus autem corrupti sed vitae dicta illo quidem laboriosam dolor magni rem animi dolores! Expedita iste consequatur repudiandae beatae, nostrum deserunt ea possimus veritatis. Magnam sit, debitis nesciunt, eligendi iste nulla incidunt fugiat laboriosam ipsam doloremque! Asperiores, inventore. Quos expedita, animi at eum enim iusto obcaecati tempore esse minus. Atque corrupti dolorem voluptatum corporis eius praesentium deleniti animi. Itaque sed soluta quae alias perspiciatis labore voluptatum eaque unde mollitia quam, commodi architecto laborum nisi incidunt enim error tempora. Ad modi adipisci, vero commodi facere id eligendi est temporibus officiis, placeat hic veniam et autem nam doloremque labore molestias eveniet porro aut! Voluptates consequuntur eos accusamus dolores nihil harum ducimus ipsum tempora possimus placeat delectus omnis molestiae eius corporis optio cum, nostrum animi pariatur vero accusantium earum tempore inventore itaque eveniet. Sequedrgergergiojiopejoipggjjioerjoiioo9oipoi oiuuho8hoihoihoi;o oiho8ho8ho oho8ho8h y09u90u0909 09u09u0 09u90u9 o09u09u  lore Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem nulla atque placeat dignissimos debitis sit quod consequatur fugiat labore nam? i recusandae, hic iusto necessitatibus ipsum nostrum libero eveniet eius tempore repellat suscipit temporibus quos sapiente cumque mollitia natus. Aliquam dolor atque nulla quasi praesentium? Consequuntur voluptatem facere maiores. Quam mollitia voluptas dolor debitis similique sint amet magnam quisquam eligendi voluptatem rem facere cumque quaerat dolore consequuntur dolores atque corporis, quae maiores, consequatur iusto, natus laboriosam. Accusamus quisquam tempore modi temporibus, dolor distinctio optio? Modi odit, similique laborum assumenda officia nostrum dolores soluta esse! Fugiat eaque corporis inventore ducimus explicabo illo est rem consequatur iste voluptates. Necessitatibus explicabo maxime ullam omnis quos? Autem, corrupti recusandae veritatis praesentium dolor quis cupiditate exercitationem ducimus sint dolorum accusamus soluta quasi accusantium facere maxime eveniet esse tempore laborum porro ex neque repudiandae in ipsam consequuntur. Consectetur est ullam harum unde tempore! Optio non eum corporis iure corrupti molestiae amet dolorum ad veniam ipsam possimus minus fuga, autem accusantium. Sunt accusantium doloribus omnis impedit, tempore, ipsam illo deleniti eligendi amet fugiat quae necessitatibus esse aut itaque aperiam sapiente atque dolorem ipsa. Sunt et accusantium commodi nemo veritatis doloremque mollitia atque expedita modi harum nulla, quos, ipsa vero. Natus corporis eos suscipit possimus hic blanditiis impedit. Veniam ea voluptate ipsa.</p>
+
+      <div className='container'>
+        <div className="row">
+          <div className="col-md-12">
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
