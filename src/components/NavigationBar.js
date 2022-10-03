@@ -13,20 +13,17 @@ function NavigationBar() {
   
   let body = document.body;
   const name = document.getElementById("name");
-  const icons = document.getElementsByClassName("fa-brands");
   const HandlerMode = () =>{
     if(mode === Night ){
       setMode(Day);
       body.style.background = "#2a3444";
       body.style.color = "white";
       name.style.color = "yellow";
-      icons.style.color = "white";
     }else if(mode === Day){
       body.style.background = "white";
       setMode(Night);
       body.style.color = "black";
       name.style.color = "blue";
-      icons.style.color = "#2a3444";
     }
   }
 
