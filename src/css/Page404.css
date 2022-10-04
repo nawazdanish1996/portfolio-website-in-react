@@ -1,0 +1,31 @@
+.fa-face-grin-squint-tears{
+    font-size: 50px;
+    color: gray;
+}
+
+.p404{
+    font-size: 50px;
+}
+
+#errortags{
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background-color: #3765c7;
+    color: white;
+    font-weight: 500;
+    transition: all 1s ease;
+}
+
+#errortags:active{
+    background: black;
+}
+#errortags:hover{
+    background: rgb(37, 91, 141);
+}
+
+.col-md-12 p{
+    line-height: 2px;
+}
