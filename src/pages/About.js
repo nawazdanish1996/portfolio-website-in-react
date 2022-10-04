@@ -38,10 +38,11 @@ function About() {
 
           <div className="col-md-12 mb-3 text-center text-white">
             <button className="btn btn-primary text-white m-2">HTML5</button>
-            <button className="btn btn-primary text-white m-2">CSS3</button>
+            <button className="btn btn-primary text-white m-2">CSS3 with SASS</button>
             <button className="btn btn-primary text-white m-2">JAVASCRIPT</button>
             <button className="btn btn-primary text-white m-2">REACT</button>
             <button className="btn btn-primary text-white m-2">REDUX</button>
+            <button className="btn btn-primary text-white m-2">BOOTSTRAP</button>
             <button className="btn btn-primary text-white m-2">TYPESCRIPT</button>
           </div>
 
