@@ -6,7 +6,7 @@ function Portfolio() {
     <div className='container'>
       <div className="row">
         <div className="col-md-12 mt-md-5 text-center">
-          <h1>My <span className='text-primary'>Project</span></h1>
+          <h1>My <span style={{color: "black"}}>Project</span></h1>
           <h6>Here are some project i build during learning journey.</h6>
         </div>
       </div>
