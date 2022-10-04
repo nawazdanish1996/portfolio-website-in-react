@@ -22,7 +22,7 @@ function NavigationBar() {
     }else if(mode === Day){
       body.style.background = "#0093E9";
       setMode(Night);
-      body.style.color = "white";
+      body.style.color = "black";
       name.style.color = "blue";
     }
   }
