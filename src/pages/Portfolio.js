@@ -13,7 +13,7 @@ function Portfolio() {
 
       <div className="row mt-5 mb-5">
         <div className="col-md-4 text-center">
-            <div className="proj pt-5 pb-5">
+            <div className="proj pt-5 pb-5 mt-3">
               <h4 className="mt-3 text-primary">University Website</h4>
               <a href="https://nawazdanish1996.github.io/HTML-CSS-Project---HTML-CSS-Mini-Project---hmvp5eqhxlv0/" target="blank">
                 <i class="fab fa-github mt-4"></i>
@@ -22,7 +22,7 @@ function Portfolio() {
         </div>
 
           <div className="col-md-4 text-center">
-            <div className="proj pt-5 pb-5">
+            <div className="proj pt-5 pb-5 mt-3">
               <h4 className="mt-3 text-primary">TV Maze</h4>
               <a href="https://fabulous-selkie-de609f.netlify.app/" target="blank">
                 <i class="fab fa-github mt-4"></i>
@@ -31,7 +31,7 @@ function Portfolio() {
           </div>
 
           <div className="col-md-4 text-center">
-            <div className="proj pt-5 pb-5 mb-md-5">
+            <div className="proj pt-5 pb-5 mb-md-5 mt-3">
               <h4 className="mt-3 text-primary">eCom Website</h4>
               <a href="https://nawazdanish1996.github.io/JS-Mini-Project/" target="blank">
                 <i class="fab fa-github mt-4"></i>
