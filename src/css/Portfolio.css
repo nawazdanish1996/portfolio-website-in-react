@@ -1,0 +1,34 @@
+.col-md-4 .proj {
+    background-image: url(../images/myProfilePic.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.col-md-4 a{
+    text-decoration: none;
+}
+.col-md-4 .fa-github {
+    font-size: 40px;
+}
+
+.col-md-4 .proj:hover {
+    box-shadow: 0 0 10px black;
+    background-image:none;
+}
+
+.proj h4, .proj i {
+    display: none;
+    transition: all 1s ease;
+}
+
+.proj:hover h4, .proj:hover i {
+    display: block;
+}
+
+.fa-github:hover{
+    color: black;
+}
