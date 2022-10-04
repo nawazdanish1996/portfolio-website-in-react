@@ -10,7 +10,7 @@ import Day from "../dark theme icons/sun.png";
 
 function NavigationBar() {
   const [mode, setMode] = useState(Night);
-  
+
   let body = document.body;
   const name = document.getElementById("name");
   const HandlerMode = () =>{
@@ -20,9 +20,9 @@ function NavigationBar() {
       body.style.color = "white";
       name.style.color = "yellow";
     }else if(mode === Day){
-      body.style.background = "white";
+      body.style.background = "#0093E9";
       setMode(Night);
-      body.style.color = "black";
+      body.style.color = "white";
       name.style.color = "blue";
     }
   }

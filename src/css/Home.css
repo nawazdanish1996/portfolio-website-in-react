@@ -36,8 +36,9 @@
 .fa-brands{
     font-size: 35px;
     margin: .2rem;
+    color: #111111;
 }
 
 .fa-brands:hover{
-    color: black;
+    color: crimson;
 }
