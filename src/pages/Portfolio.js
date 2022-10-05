@@ -1,8 +1,25 @@
 import "../css/Portfolio.css";
-import React from 'react';
+import React, {useState, useEffect} from 'react';
+import { SyncLoader } from "react-spinners";
 
 function Portfolio() {
+  let [loading, setLoading] = useState(true);
+
+  useEffect(()=>{
+    setLoading(true);
+    setTimeout(()=>{
+      setLoading(false)
+    }, 3000)
+  }, []);
+
   return (
+    <div>
+      {
+      loading ?
+      <div id="loader">
+        <SyncLoader color={"green"} loading={loading} size={10} />
+      </div>
+      :
     <div className='container'>
       <div className="row">
         <div className="col-md-12 mt-md-5 text-center">
@@ -42,6 +59,8 @@ function Portfolio() {
 
       </div>
 
+    </div>
+      }
     </div>
   )
 }

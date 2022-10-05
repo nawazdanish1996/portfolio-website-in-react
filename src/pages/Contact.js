@@ -1,12 +1,14 @@
 import "../css/Contact.css";
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import swal from 'sweetalert';
+import { SyncLoader } from "react-spinners";
 
 const Contact = () => {
   const [name, setName] = useState("");
   const [mail, setMail] = useState("");
   const [sub, setSub] = useState("");
   const [val, setVal] = useState("");
+  let [loading, setLoading] = useState(true);
 
   const FormSubmitHandler = () =>{
     if(name ===  "" || name.length < 6){
@@ -37,13 +39,26 @@ const Contact = () => {
     setVal("");
   }
 
+  useEffect(()=>{
+    setLoading(true);
+    setTimeout(()=>{
+      setLoading(false)
+    }, 3000)
+  }, []);
+
   return (
+    <div>
+    {
+    loading ?
+    <div id="loader">
+      <SyncLoader color={"green"} loading={loading} size={10} />
+    </div>
+    :
     <div className='container'>
       <div className="row text-center">
         <div className="col-md-12 mt-5">
           <h1>CONTACT <span className='text-warning'>ME</span></h1>
         </div>
-
         <div className="col-md-6 mt-md-5 mt-3">
           <h4>Contact me!</h4>
           <p>For any query feel free to contact me, Thanks You!</p>
@@ -66,7 +81,6 @@ const Contact = () => {
           </div>
         </div>
 
-
         <div className="col-md-6 mb-5 mt-md-5 mt-3 text-center ">
           <form onSubmit={(e)=> e.preventDefault()}>
             <input className="form-control" style={{fontWeight: "700"}} onChange={(e)=> setName(e.target.value)} value={name} type="text" placeholder='FULL NAME' />
@@ -84,6 +98,8 @@ const Contact = () => {
           </form>
         </div>
       </div>
+    </div>
+    }
     </div>
   )
 }

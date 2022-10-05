@@ -1,9 +1,25 @@
 import "../css/About.css";
-import React from 'react';
+import React, {useState, useEffect} from 'react';
+import { SyncLoader } from "react-spinners";
 
 function About() {
+  let [loading, setLoading] = useState(true);
+
+  useEffect(()=>{
+    setLoading(true);
+    setTimeout(()=>{
+      setLoading(false)
+    }, 3000)
+  }, []);
+
   return (
     <div>
+          {
+      loading ?
+      <div id="loader">
+        <SyncLoader color={"green"} loading={loading} size={10} />
+      </div>
+      :
       <div className="container">
         <div className="row">
           <div className="col-md-12 mt-3">
@@ -11,11 +27,10 @@ function About() {
           </div>
           <div className="col-md-12 mt-3">
             <h3 className='text-center text-uppercase'>Information about me</h3>
-            <p>&nbsp; &nbsp; &nbsp; I am Nawaz Danish from West Bengal district of North Dinajpur, I am a React Developer with hands-on experience in identifying web-based user interactions along with highly responsive user interface components by deploying react concepts and writing code via JavaScript and React.js workflows. Monitoring and maintaining frontend performance.
-              <br />
+            <small>&nbsp; &nbsp; &nbsp; I am Nawaz Danish from West Bengal district of North Dinajpur, I am a React Developer with hands-on experience in identifying web-based user interactions along with highly responsive user interface components by deploying react concepts and writing code via JavaScript and React.js workflows. Monitoring and maintaining frontend performance.
               <br />
               &nbsp; &nbsp; &nbsp; I always want to learn how to code and how to build a website how thins works behind the scenes. Then i join the newton school to begain my journy as a developer. As such my personal profile, I am a hard working and sincere person and always preferred with technical from different new enter Software.
-            </p>
+            </small>
           </div>
           <div className="col-md-4 p-3 mt-md-2 mb-md-4">
             <div id='box' className="pt-4 pb-5 mt-4">
@@ -51,6 +66,7 @@ function About() {
 
         </div>
       </div>
+      }
     </div>
   )
 }
