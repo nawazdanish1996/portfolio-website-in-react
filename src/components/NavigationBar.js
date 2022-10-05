@@ -20,7 +20,7 @@ function NavigationBar() {
       body.style.color = "white";
       name.style.color = "yellow";
     }else if(mode === Day){
-      body.style.background = "#0093E9";
+      body.style.background = "white";
       setMode(Night);
       body.style.color = "black";
       name.style.color = "blue";
@@ -28,7 +28,7 @@ function NavigationBar() {
   }
 
   return (
-    <div id="nav" className="pt-3 pb-1 bg-black position-sticky top-0">
+    <div id="nav" className="pt-3 pb-1 bg-black position-sticky top-0 overflow-hidden ">
       <Container>
         <Row>
           <Col>
