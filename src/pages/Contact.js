@@ -68,7 +68,7 @@ const Contact = () => {
             <br />
             <input onChange={(e)=> setSub(e.target.value)} value={sub} type="text" placeholder='ENTER SUBJECT' />
             <br />
-            <textarea onChange={(e)=> setVal(e.target.value)} value={val} id="" cols="30" rows="10" placeholder="Message"></textarea>
+            <textarea onChange={(e)=> setVal(e.target.value)} value={val} id="" cols="30" rows="5" placeholder="Message"></textarea>
             <br />
             <button onClick={FormSubmitHandler} type="submit" className='btn btn-success'>Submit</button>
             <button type="reset" className='btn btn-success'>Reset</button>
