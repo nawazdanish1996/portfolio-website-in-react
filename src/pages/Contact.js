@@ -85,7 +85,7 @@ const Contact = () => {
           <form onSubmit={(e)=> e.preventDefault()}>
             <input className="form-control" style={{fontWeight: "700"}} onChange={(e)=> setName(e.target.value)} value={name} type="text" placeholder='FULL NAME' />
             <br />
-            <input className="form-control" onChange={(e)=> setMail(e.target.value)} value={mail} type="email" placeholder='EMAIL' />
+            <input className="form-control" onChange={(e)=> setMail(e.target.value)} value={mail} type="email" placeholder='EMAIL'/>
             <br />
             <input className="form-control" onChange={(e)=> setSub(e.target.value)} value={sub} type="text" placeholder='ENTER SUBJECT' />
             <br />

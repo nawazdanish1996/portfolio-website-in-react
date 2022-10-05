@@ -3,6 +3,7 @@
     border: 1px solid green;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
+    overflow: hidden;
 }
 
 #box:hover{
