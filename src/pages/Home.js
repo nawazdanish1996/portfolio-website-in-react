@@ -19,6 +19,8 @@ const Home = () => {
     {
       loading ?
       <div id="loader">
+        <h4 className="text-warning">Happy <span className="text-success">Dassehra</span></h4>
+        <br />
         <SyncLoader color={"green"} loading={loading} size={10} />
       </div>
       :
