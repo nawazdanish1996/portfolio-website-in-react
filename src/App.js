@@ -6,7 +6,7 @@ const LazyHome = lazy(()=> import("./pages/Home"));
 const LazyAbout = lazy(()=> import("./pages/About"));
 const LazyPortfolio = lazy(()=> import("./pages/Portfolio"));
 const LazyContact = lazy(()=> import("./pages/Contact"));
-const LazyPage404 = lazy(()=> import("./pages/Page404"));
+// const LazyPage404 = lazy(()=> import("./pages/Page404"));
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Route path='/about' element={<Suspense fallback="Loading..."><LazyAbout /></Suspense>} />
         <Route path='/portfolio' element={<Suspense fallback="Loading..."><LazyPortfolio /></Suspense>} />
         <Route path='/contact' element={<Suspense fallback="Loading..."><LazyContact /></Suspense>} />
-        <Route path='*' element={<Suspense fallback="Loading..."><LazyPage404 /></Suspense>} />
+        {/* <Route path='*' element={<Suspense fallback="Loading..."><LazyPage404 /></Suspense>} /> */}
       </Routes>
     </BrowserRouter>
   );
