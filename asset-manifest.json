@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-website-in-react/static/css/main.a507a74d.css",
-    "main.js": "/portfolio-website-in-react/static/js/main.60afd7e8.js",
+    "main.js": "/portfolio-website-in-react/static/js/main.0db74604.js",
     "static/css/910.daa0634e.chunk.css": "/portfolio-website-in-react/static/css/910.daa0634e.chunk.css",
     "static/js/910.4af348d7.chunk.js": "/portfolio-website-in-react/static/js/910.4af348d7.chunk.js",
     "static/css/493.c93d21db.chunk.css": "/portfolio-website-in-react/static/css/493.c93d21db.chunk.css",
@@ -9,7 +9,7 @@
     "static/css/703.13c7ac52.chunk.css": "/portfolio-website-in-react/static/css/703.13c7ac52.chunk.css",
     "static/js/703.57956bb0.chunk.js": "/portfolio-website-in-react/static/js/703.57956bb0.chunk.js",
     "static/css/969.02f6ca29.chunk.css": "/portfolio-website-in-react/static/css/969.02f6ca29.chunk.css",
-    "static/js/969.86e6e331.chunk.js": "/portfolio-website-in-react/static/js/969.86e6e331.chunk.js",
+    "static/js/969.2014aeaf.chunk.js": "/portfolio-website-in-react/static/js/969.2014aeaf.chunk.js",
     "static/css/695.7321e2a8.chunk.css": "/portfolio-website-in-react/static/css/695.7321e2a8.chunk.css",
     "static/js/695.0ec9957e.chunk.js": "/portfolio-website-in-react/static/js/695.0ec9957e.chunk.js",
     "static/js/787.a8a21f2e.chunk.js": "/portfolio-website-in-react/static/js/787.a8a21f2e.chunk.js",
@@ -19,7 +19,7 @@
     "static/media/myProfilePic.jpg": "/portfolio-website-in-react/static/media/myProfilePic.626cd7bd2bd6f2c868c1.jpg",
     "index.html": "/portfolio-website-in-react/index.html",
     "main.a507a74d.css.map": "/portfolio-website-in-react/static/css/main.a507a74d.css.map",
-    "main.60afd7e8.js.map": "/portfolio-website-in-react/static/js/main.60afd7e8.js.map",
+    "main.0db74604.js.map": "/portfolio-website-in-react/static/js/main.0db74604.js.map",
     "910.daa0634e.chunk.css.map": "/portfolio-website-in-react/static/css/910.daa0634e.chunk.css.map",
     "910.4af348d7.chunk.js.map": "/portfolio-website-in-react/static/js/910.4af348d7.chunk.js.map",
     "493.c93d21db.chunk.css.map": "/portfolio-website-in-react/static/css/493.c93d21db.chunk.css.map",
@@ -27,7 +27,7 @@
     "703.13c7ac52.chunk.css.map": "/portfolio-website-in-react/static/css/703.13c7ac52.chunk.css.map",
     "703.57956bb0.chunk.js.map": "/portfolio-website-in-react/static/js/703.57956bb0.chunk.js.map",
     "969.02f6ca29.chunk.css.map": "/portfolio-website-in-react/static/css/969.02f6ca29.chunk.css.map",
-    "969.86e6e331.chunk.js.map": "/portfolio-website-in-react/static/js/969.86e6e331.chunk.js.map",
+    "969.2014aeaf.chunk.js.map": "/portfolio-website-in-react/static/js/969.2014aeaf.chunk.js.map",
     "695.7321e2a8.chunk.css.map": "/portfolio-website-in-react/static/css/695.7321e2a8.chunk.css.map",
     "695.0ec9957e.chunk.js.map": "/portfolio-website-in-react/static/js/695.0ec9957e.chunk.js.map",
     "787.a8a21f2e.chunk.js.map": "/portfolio-website-in-react/static/js/787.a8a21f2e.chunk.js.map",
@@ -35,6 +35,6 @@
   },
   "entrypoints": [
     "static/css/main.a507a74d.css",
-    "static/js/main.60afd7e8.js"
+    "static/js/main.0db74604.js"
   ]
 }
