@@ -13,6 +13,15 @@ const Contact = () => {
     if(name ===  ""){
       swal("Oops!", "Wrong Name input", "error");
     }
+    else if(mail ===  ""){
+      swal("Oops!", "Invalid email", "error");
+    }
+    else if(sub.length < 10){
+      swal("Oops!", "Subject is less than ten words", "error");
+    }
+    else if(val.length < 50){
+      swal("Oops!", "Message is less than fifty words", "error");
+    }
     else{
       swal("Success", "I will get back to you as soon as possible", "success");  
       setName("");
