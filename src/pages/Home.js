@@ -1,11 +1,27 @@
 import "../css/Home.css";
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import myPic from "../images/am.png";
 import Resume from "../Resume Pdf/NawazDanishResume.pdf";
+import { SyncLoader } from "react-spinners";
 
 const Home = () => {
+  let [loading, setLoading] = useState(true);
+
+  useEffect(()=>{
+    setLoading(true);
+    setTimeout(()=>{
+      setLoading(false)
+    }, 5000)
+  }, [])
 
   return (
+    <div>
+    {
+      loading ?
+      <div id="loader">
+        <SyncLoader color={"green"} loading={loading} size={10} />
+      </div>
+      :
       <div className="container text-center mt-md-5 mt-sm-5 mt-3 mb-md-5 mb-sm-5 mb-3">
           <div className="row">
             <div className="col-md-6">
@@ -31,6 +47,8 @@ const Home = () => {
             </div>
           </div>
       </div>
+    }
+    </div>
   )
 }
 
