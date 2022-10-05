@@ -1,0 +1,16 @@
+input{
+    color: green;
+}
+
+input, textarea{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 70%;
+    padding: 7px;
+    resize: none;
+}
+
+button{
+    width: 34%;
+    margin: 1%;
+}

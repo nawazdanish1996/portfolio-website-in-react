@@ -1,6 +1,6 @@
 import "../css/Home.css";
 import React from 'react';
-import myPic from "../images/myProfilePic.jpg";
+import myPic from "../images/am.png";
 import Resume from "../Resume Pdf/NawazDanishResume.pdf";
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
       <div className="container text-center mt-md-5 mt-sm-5 mt-3 mb-md-5 mb-sm-5 mb-3">
           <div className="row">
             <div className="col-md-6">
-              <img id='profileImg' src={myPic} alt="myPic" />
+              <img loading="lazy" id='profileImg' src={myPic} alt="myPic" />
             </div>
             <div style={{textAlign: "justify"}} className="col-md-6 mt-md-5 mt-sm-5">
               <h1 className="mt-md-5 mt-sm-5">Hi! I'm <span id='name'>Nawaz Danish</span></h1>
