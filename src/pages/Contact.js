@@ -8,9 +8,8 @@ const Contact = () => {
   const [sub, setSub] = useState("");
   const [val, setVal] = useState("");
 
-  // swal("Oops!", "Something went wrong, you should choose again!", "error");
   const FormSubmitHandler = () =>{
-    if(name ===  ""){
+    if(name ===  "" || name.length < 6){
       swal("Oops!", "Wrong Name input", "error");
     }
     else if(mail ===  ""){
