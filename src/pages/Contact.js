@@ -29,6 +29,13 @@ const Contact = () => {
       setVal("");
     }
   }
+  
+  const FormResetHandler = () =>{
+    setName("");
+    setMail("");
+    setSub("");
+    setVal("");
+  }
 
   return (
     <div className='container'>
@@ -60,18 +67,20 @@ const Contact = () => {
         </div>
 
 
-        <div className="col-md-6 mb-5 mt-md-5 mt-3">
+        <div className="col-md-6 mb-5 mt-md-5 mt-3 text-center ">
           <form onSubmit={(e)=> e.preventDefault()}>
-            <input style={{fontWeight: "700"}} onChange={(e)=> setName(e.target.value)} value={name} type="text" placeholder='FULL NAME' />
+            <input className="form-control" style={{fontWeight: "700"}} onChange={(e)=> setName(e.target.value)} value={name} type="text" placeholder='FULL NAME' />
             <br />
-            <input onChange={(e)=> setMail(e.target.value)} value={mail} type="email" placeholder='EMAIL' />
+            <input className="form-control" onChange={(e)=> setMail(e.target.value)} value={mail} type="email" placeholder='EMAIL' />
             <br />
-            <input onChange={(e)=> setSub(e.target.value)} value={sub} type="text" placeholder='ENTER SUBJECT' />
+            <input className="form-control" onChange={(e)=> setSub(e.target.value)} value={sub} type="text" placeholder='ENTER SUBJECT' />
             <br />
-            <textarea onChange={(e)=> setVal(e.target.value)} value={val} id="" cols="30" rows="5" placeholder="Message"></textarea>
+            <textarea className="form-control" onChange={(e)=> setVal(e.target.value)} value={val} id="" cols="30" rows="5" placeholder="Message"></textarea>
             <br />
-            <button onClick={FormSubmitHandler} type="submit" className='btn btn-success'>Submit</button>
-            <button type="reset" className='btn btn-success'>Reset</button>
+            <div className="text-center">
+              <button onClick={FormSubmitHandler} type="submit" className='btn btn-success w-25'>Submit</button>
+              <button onClick={FormResetHandler} className='btn btn-success w-25 m-2'>Reset</button>
+            </div>
           </form>
         </div>
       </div>
