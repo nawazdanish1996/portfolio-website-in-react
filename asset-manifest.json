@@ -1,36 +1,36 @@
 {
   "files": {
-    "main.css": "/portfolio-website-in-react/static/css/main.cbb724f1.css",
-    "main.js": "/portfolio-website-in-react/static/js/main.432e6bff.js",
+    "main.css": "/portfolio-website-in-react/static/css/main.089f5f3b.css",
+    "main.js": "/portfolio-website-in-react/static/js/main.9a303841.js",
     "static/css/910.f8b20868.chunk.css": "/portfolio-website-in-react/static/css/910.f8b20868.chunk.css",
-    "static/js/910.4d0eb2eb.chunk.js": "/portfolio-website-in-react/static/js/910.4d0eb2eb.chunk.js",
+    "static/js/910.e39d4a7f.chunk.js": "/portfolio-website-in-react/static/js/910.e39d4a7f.chunk.js",
     "static/css/493.15077124.chunk.css": "/portfolio-website-in-react/static/css/493.15077124.chunk.css",
-    "static/js/493.48fbb667.chunk.js": "/portfolio-website-in-react/static/js/493.48fbb667.chunk.js",
+    "static/js/493.42f3216f.chunk.js": "/portfolio-website-in-react/static/js/493.42f3216f.chunk.js",
     "static/css/703.1a148005.chunk.css": "/portfolio-website-in-react/static/css/703.1a148005.chunk.css",
-    "static/js/703.1789a463.chunk.js": "/portfolio-website-in-react/static/js/703.1789a463.chunk.js",
+    "static/js/703.005799c4.chunk.js": "/portfolio-website-in-react/static/js/703.005799c4.chunk.js",
     "static/css/969.9dc5680e.chunk.css": "/portfolio-website-in-react/static/css/969.9dc5680e.chunk.css",
-    "static/js/969.b1019124.chunk.js": "/portfolio-website-in-react/static/js/969.b1019124.chunk.js",
+    "static/js/969.b4d473e5.chunk.js": "/portfolio-website-in-react/static/js/969.b4d473e5.chunk.js",
     "static/js/787.a8a21f2e.chunk.js": "/portfolio-website-in-react/static/js/787.a8a21f2e.chunk.js",
-    "static/js/972.a46cc39e.chunk.js": "/portfolio-website-in-react/static/js/972.a46cc39e.chunk.js",
+    "static/js/62.724508f7.chunk.js": "/portfolio-website-in-react/static/js/62.724508f7.chunk.js",
     "static/media/am.png": "/portfolio-website-in-react/static/media/am.46a6b9d3fc27baaef980.png",
     "static/media/NawazDanishResume.pdf": "/portfolio-website-in-react/static/media/NawazDanishResume.a0f4c5673e376cf2ae96.pdf",
     "static/media/myProfilePic.jpg": "/portfolio-website-in-react/static/media/myProfilePic.626cd7bd2bd6f2c868c1.jpg",
     "index.html": "/portfolio-website-in-react/index.html",
-    "main.cbb724f1.css.map": "/portfolio-website-in-react/static/css/main.cbb724f1.css.map",
-    "main.432e6bff.js.map": "/portfolio-website-in-react/static/js/main.432e6bff.js.map",
+    "main.089f5f3b.css.map": "/portfolio-website-in-react/static/css/main.089f5f3b.css.map",
+    "main.9a303841.js.map": "/portfolio-website-in-react/static/js/main.9a303841.js.map",
     "910.f8b20868.chunk.css.map": "/portfolio-website-in-react/static/css/910.f8b20868.chunk.css.map",
-    "910.4d0eb2eb.chunk.js.map": "/portfolio-website-in-react/static/js/910.4d0eb2eb.chunk.js.map",
+    "910.e39d4a7f.chunk.js.map": "/portfolio-website-in-react/static/js/910.e39d4a7f.chunk.js.map",
     "493.15077124.chunk.css.map": "/portfolio-website-in-react/static/css/493.15077124.chunk.css.map",
-    "493.48fbb667.chunk.js.map": "/portfolio-website-in-react/static/js/493.48fbb667.chunk.js.map",
+    "493.42f3216f.chunk.js.map": "/portfolio-website-in-react/static/js/493.42f3216f.chunk.js.map",
     "703.1a148005.chunk.css.map": "/portfolio-website-in-react/static/css/703.1a148005.chunk.css.map",
-    "703.1789a463.chunk.js.map": "/portfolio-website-in-react/static/js/703.1789a463.chunk.js.map",
+    "703.005799c4.chunk.js.map": "/portfolio-website-in-react/static/js/703.005799c4.chunk.js.map",
     "969.9dc5680e.chunk.css.map": "/portfolio-website-in-react/static/css/969.9dc5680e.chunk.css.map",
-    "969.b1019124.chunk.js.map": "/portfolio-website-in-react/static/js/969.b1019124.chunk.js.map",
+    "969.b4d473e5.chunk.js.map": "/portfolio-website-in-react/static/js/969.b4d473e5.chunk.js.map",
     "787.a8a21f2e.chunk.js.map": "/portfolio-website-in-react/static/js/787.a8a21f2e.chunk.js.map",
-    "972.a46cc39e.chunk.js.map": "/portfolio-website-in-react/static/js/972.a46cc39e.chunk.js.map"
+    "62.724508f7.chunk.js.map": "/portfolio-website-in-react/static/js/62.724508f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbb724f1.css",
-    "static/js/main.432e6bff.js"
+    "static/css/main.089f5f3b.css",
+    "static/js/main.9a303841.js"
   ]
 }
