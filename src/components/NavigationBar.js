@@ -1,10 +1,10 @@
 import "../css/NavigationBar.css";
 import React, { useState } from 'react';
 import {NavLink} from "react-router-dom";
-import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/Container"
+import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Nav from "react-bootstrap/Nav";
 import Night from "../dark theme icons/moon.png";
 import Day from "../dark theme icons/sun.png";
 
@@ -28,7 +28,7 @@ function NavigationBar() {
   }
 
   return (
-    <div id="nav" className="pt-3 pb-1 bg-black position-sticky top-0 overflow-hidden ">
+    <div id="nav" className="pt-3 bg-black position-sticky overflow-hidden pb-1 top-0 ">
       <Container>
         <Row>
           <Col>

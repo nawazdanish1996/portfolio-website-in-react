@@ -10,11 +10,12 @@ const Contact = () => {
   const [val, setVal] = useState("");
   let [loading, setLoading] = useState(true);
 
-  const FormSubmitHandler = () =>{
+  const FormSubmitHandler = (e) =>{
+    const emailPattern = /[a-zA-Z0-9._%+-]+@[a-z0-9*-]+\.[a-z]{2,8}(.[a-z{2,8}])?/g;
     if(name ===  "" || name.length < 6){
       swal("Oops!", "Wrong Name input", "error");
     }
-    else if(mail ===  ""){
+    else if(!emailPattern.test(mail)){
       swal("Oops!", "Invalid email", "error");
     }
     else if(sub.length < 10){
@@ -25,6 +26,10 @@ const Contact = () => {
     }
     else{
       swal("Success", "I will get back to you as soon as possible", "success");  
+      console.log("Name: "+ name);
+      console.log("Email: " + mail);
+      console.log("Subject: "+ sub);
+      console.log("Message: "+ val);
       setName("");
       setMail("");
       setSub("");
