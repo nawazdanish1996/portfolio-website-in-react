@@ -1,7 +1,7 @@
 import "../css/Contact.css";
 import React, {useState, useEffect} from 'react';
 import swal from 'sweetalert';
-import { SyncLoader } from "react-spinners";
+import { GridLoader } from "react-spinners";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -48,7 +48,7 @@ const Contact = () => {
     setLoading(true);
     setTimeout(()=>{
       setLoading(false)
-    }, 3000)
+    }, 1000)
   }, []);
 
   return (
@@ -56,7 +56,7 @@ const Contact = () => {
     {
     loading ?
     <div id="loader">
-      <SyncLoader color={"green"} loading={loading} size={10} />
+      <GridLoader color={"green"} loading={loading} size={15} />
     </div>
     :
     <div className='container'>

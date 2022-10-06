@@ -1,6 +1,6 @@
 import "../css/Portfolio.css";
 import React, {useState, useEffect} from 'react';
-import { SyncLoader } from "react-spinners";
+import { GridLoader } from "react-spinners";
 
 function Portfolio() {
   let [loading, setLoading] = useState(true);
@@ -9,7 +9,7 @@ function Portfolio() {
     setLoading(true);
     setTimeout(()=>{
       setLoading(false)
-    }, 3000)
+    }, 1000)
   }, []);
 
   return (
@@ -17,7 +17,7 @@ function Portfolio() {
       {
       loading ?
       <div id="loader">
-        <SyncLoader color={"green"} loading={loading} size={10} />
+        <GridLoader color={"green"} loading={loading} size={15} />
       </div>
       :
     <div className='container'>

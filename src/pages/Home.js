@@ -2,7 +2,7 @@ import "../css/Home.css";
 import React, { useEffect, useState } from 'react';
 import myPic from "../images/am.png";
 import Resume from "../Resume Pdf/NawazDanishResume.pdf";
-import { SyncLoader } from "react-spinners";
+import { GridLoader } from "react-spinners";
 
 const Home = () => {
   let [loading, setLoading] = useState(true);
@@ -11,7 +11,7 @@ const Home = () => {
     setLoading(true);
     setTimeout(()=>{
       setLoading(false)
-    }, 5000)
+    }, 1000)
   }, [])
 
   return (
@@ -19,9 +19,9 @@ const Home = () => {
     {
       loading ?
       <div id="loader">
-        <h4 className="text-warning">Happy <span className="text-success">Dassehra</span></h4>
-        <br />
-        <SyncLoader color={"green"} loading={loading} size={10} />
+        {/* <h4 className="text-warning">Jai <span className="text-success">Hind</span></h4>
+        <br /> */}
+        <GridLoader color={"green"} loading={loading} size={15} />
       </div>
       :
       <div className="container text-center mt-md-5 mt-sm-5 mt-3 mb-md-5 mb-sm-5 mb-3">
