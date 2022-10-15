@@ -44,10 +44,8 @@ const Contact = () => {
         "jmulddNW0pjF66328"
       ).then((result)=>{
         console.log(result.text);
-        alert("message sent")
       },(err)=>{
         console.log(err.text);
-        console.log("err")
       });
     }
   };
