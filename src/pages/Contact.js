@@ -1,5 +1,6 @@
 import "../css/Contact.css";
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
+import emailjs from "@emailjs/browser";
 import swal from 'sweetalert';
 import { GridLoader } from "react-spinners";
 
@@ -9,9 +10,11 @@ const Contact = () => {
   const [sub, setSub] = useState("");
   const [val, setVal] = useState("");
   let [loading, setLoading] = useState(true);
+  const form = useRef();
 
   const FormSubmitHandler = (e) =>{
-    const emailPattern = /[a-zA-Z0-9._%+-]+@[a-z0-9*-]+\.[a-z]{2,8}(.[a-z{2,8}])?/g;
+    e.preventDefault();
+    const emailPattern = /^[A-Za-z0-9._]{3,}@[a-zA-Z]{3,}[.]{1,}[a-zA-Z.]{2,6}$/g;
     if(name ===  "" || name.length < 6){
       swal("Oops!", "Wrong Name input", "error");
     }
@@ -25,7 +28,7 @@ const Contact = () => {
       swal("Oops!", "Message is less than fifty words", "error");
     }
     else{
-      swal("Success", "I will get back to you as soon as possible", "success");  
+      swal("Sent", "I will get back to you as soon as possible", "success");  
       console.log("Name: "+ name);
       console.log("Email: " + mail);
       console.log("Subject: "+ sub);
@@ -34,10 +37,22 @@ const Contact = () => {
       setMail("");
       setSub("");
       setVal("");
+      emailjs.sendForm(
+        "service_92ghmkp",
+        "template_u6025mn",
+        form.current,
+        "jmulddNW0pjF66328"
+      ).then((result)=>{
+        console.log(result.text);
+        alert("message sent")
+      },(err)=>{
+        console.log(err.text);
+        console.log("err")
+      });
     }
-  }
+  };
   
-  const FormResetHandler = () =>{
+  const HandReset = () =>{
     setName("");
     setMail("");
     setSub("");
@@ -87,18 +102,18 @@ const Contact = () => {
         </div>
 
         <div className="col-md-6 mb-5 mt-md-5 mt-3 text-center ">
-          <form onSubmit={(e)=> e.preventDefault()}>
-            <input className="form-control" style={{fontWeight: "700"}} onChange={(e)=> setName(e.target.value)} value={name} type="text" placeholder='FULL NAME' />
+          <form ref={form} onSubmit={FormSubmitHandler}>
+            <input name="user_name" className="form-control" style={{fontWeight: "700"}} onChange={(e)=> setName(e.target.value)} value={name} type="text" placeholder='FULL NAME' />
             <br />
-            <input className="form-control" onChange={(e)=> setMail(e.target.value)} value={mail} type="email" placeholder='EMAIL'/>
+            <input name="user_email" className="form-control" onChange={(e)=> setMail(e.target.value)} value={mail} type="email" placeholder='EMAIL'/>
             <br />
-            <input className="form-control" onChange={(e)=> setSub(e.target.value)} value={sub} type="text" placeholder='ENTER SUBJECT' />
+            <input name='sub' className="form-control" onChange={(e)=> setSub(e.target.value)} value={sub} type="text" placeholder='ENTER SUBJECT' />
             <br />
-            <textarea className="form-control" onChange={(e)=> setVal(e.target.value)} value={val} id="" cols="30" rows="5" placeholder="Message"></textarea>
+            <textarea name="message" className="form-control" onChange={(e)=> setVal(e.target.value)} value={val} id="" cols="30" rows="5" placeholder="Message"></textarea>
             <br />
             <div className="text-center">
-              <button onClick={FormSubmitHandler} type="submit" className='btn btn-success w-25'>Submit</button>
-              <button onClick={FormResetHandler} className='btn btn-success w-25 m-2'>Reset</button>
+              <input type="submit" value='Send' className='btn btn-success w-25' />
+              <input onClick={HandReset} value='Reset' className='btn btn-success w-25 m-2' />
             </div>
           </form>
         </div>
