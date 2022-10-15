@@ -24,8 +24,8 @@ const Contact = () => {
     else if(sub.length < 10){
       swal("Oops!", "Subject is less than ten words", "error");
     }
-    else if(val.length < 50){
-      swal("Oops!", "Message is less than fifty words", "error");
+    else if(val.length < 255){
+      swal("Oops!", "Message is less than twenty five words", "error");
     }
     else{
       swal("Sent", "I will get back to you as soon as possible", "success");  
